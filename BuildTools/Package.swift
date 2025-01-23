@@ -6,8 +6,6 @@ let package = Package(
     name: "BuildTools",
     platforms: [.macOS(.v10_13)],
     dependencies: [
-        // .package(url: "https://github.com/SimplyDanny/SwiftLintPlugins", from: "0.58.2"),
-        // .package(url: "https://github.com/Realm/SwiftLint", exact: loadSwiftLintVersion()),
         .package(url: "https://github.com/SimplyDanny/SwiftLintPlugins", exact: loadSwiftLintVersion()),
     ],
     targets: [.target(name: "BuildTools", path: "")]
