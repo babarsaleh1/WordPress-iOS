@@ -17,3 +17,4 @@ jobs:
       cancel-running-jobs: false
     secrets:
       github-token: ${{ secrets.DANGERMATTIC_GITHUB_TOKEN }}
+ uses: Automattic/dangermattic/.github/workflows/reusable-check-labels-on-issues.yml@v1.1.2.1.2
